@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sauce Lab: línea de salsas funcionales y personalizadas desarrollada para ExpoTécnica 2026 del CTP CIT.">
+  <meta name="theme-color" content="#ff5a36">
+  <title>Sauce Lab | Sabor que se adapta a usted</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#productos">Saltar a productos</a>
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Sauce Lab, inicio">
+        <span class="brand-mark" aria-hidden="true">SL</span>
+        <span>Sauce Lab</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#productos">Productos</a>
+        <a href="#propuesta">Nuestra propuesta</a>
+        <a href="#usos">Cómo disfrutarlas</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-blob hero-blob-a" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-b" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <h1>Salsas con <span>personalidad</span>, sabor y propósito.</h1>
+          <p>Sauce Lab reinventa el acompañamiento de siempre con cuatro propuestas funcionales, versátiles y creadas a partir de ingredientes cuidadosamente seleccionados.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#productos">Conocer las salsas</a>
+            <a class="btn btn-ghost" href="#propuesta">Descubrir el proyecto</a>
+          </div>
+          <ul class="hero-points" aria-label="Características del proyecto">
+            <li>4 sabores</li><li>Textura tipo dip</li><li>Opciones vegetales</li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal" aria-label="Presentación de las salsas Sauce Lab">
+          <div class="photo-frame">
+            <img src="assets/img-007.jpg" alt="Tres salsas Sauce Lab presentadas en frascos">
+            <span class="sticker sticker-one">¡Cremosas!</span>
+            <span class="sticker sticker-two">Hechas para combinar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="productos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">La colección</span>
+          <h2>Cuatro salsas, cuatro experiencias</h2>
+          <p>Cada receta tiene un perfil propio de ingredientes, textura y usos. Seleccione una salsa para conocerla en detalle.</p>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filtrar productos">
+          <button class="filter is-active" data-filter="all" type="button">Todas</button>
+          <button class="filter" data-filter="plant" type="button">Origen vegetal</button>
+          <button class="filter" data-filter="fresh" type="button">Sabores frescos</button>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="section proposal" id="propuesta">
+      <div class="container proposal-grid">
+        <div class="proposal-copy reveal">
+          <span class="eyebrow light">¿Qué es Sauce Lab?</span>
+          <h2>Una salsa puede ser mucho más que un acompañamiento.</h2>
+          <p>El proyecto nace para explorar salsas funcionales y personalizadas que respondan a distintas preferencias nutricionales y estilos de alimentación, combinando creatividad, nutrición y sabor.</p>
+          <p>La propuesta investiga nutrición funcional, alimentación personalizada, proteínas vegetales y tendencias plant-based para desarrollar productos diferentes a las formulaciones estandarizadas.</p>
+        </div>
+        <div class="feature-stack reveal">
+          <article><span>01</span><div><h3>Ingredientes con intención</h3><p>Combinaciones seleccionadas por su sabor, textura y aporte al concepto de cada receta.</p></div></article>
+          <article><span>02</span><div><h3>Versatilidad real</h3><p>Su consistencia tipo dip permite llevarlas a vegetales, panes, wraps, bowls, pasta y más.</p></div></article>
+          <article><span>03</span><div><h3>Innovación alimentaria</h3><p>Una propuesta desarrollada desde la investigación y la experimentación durante el curso lectivo 2026.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section uses" id="usos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Ideas para servir</span>
+          <h2>Una textura, muchas posibilidades</h2>
+        </div>
+        <div class="use-grid">
+          <article class="use-card reveal"><span aria-hidden="true">🥕</span><h3>Vegetales</h3><p>Como dip cremoso para acompañamientos frescos.</p></article>
+          <article class="use-card reveal"><span aria-hidden="true">🥗</span><h3>Ensaladas y bowls</h3><p>Yomi, Raccolto y Eden pueden sumar una nueva capa de sabor.</p></article>
+          <article class="use-card reveal"><span aria-hidden="true">🌯</span><h3>Wraps y sándwiches</h3><p>Una forma práctica de incorporar textura y personalidad.</p></article>
+          <article class="use-card reveal"><span aria-hidden="true">🍝</span><h3>Pasta y pizza</h3><p>Mr. Rosso se inspira en el perfil clásico de la salsa pomodoro.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>Sauce Lab</strong><p>Creatividad, nutrición y sabor.</p></div>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="product-modal" id="product-modal" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" aria-label="Cerrar">×</button>
+    <div id="modal-content"></div>
+  </dialog>
+</body>
+</html>
